@@ -16,5 +16,3 @@ nmap <Space>r :%s/<c-r>"/
 
 -- Always disable search highlighting when pressing Escape in normal mode
 nmap <silent> <Escape> <Escape>:set nohls<Enter>
-
-nmap tn <Escape>
