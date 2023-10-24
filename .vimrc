@@ -23,4 +23,4 @@ vnoremap Y "+y
 nnoremap P "+p
 
 -- vsvim, tab in insert mode triggers auto fix in vs
-nmap <Tab> i<Tab><Enter><Escape>
+nmap <Tab> i<Tab><Escape>
