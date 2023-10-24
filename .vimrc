@@ -21,3 +21,6 @@ nmap <silent> <Escape> <Escape>:set nohls<Enter>
 nnoremap Y "+y
 vnoremap Y "+y
 nnoremap P "+p
+
+-- vsvim, tab in insert mode triggers auto fix in vs
+nmap <Tab> i<Tab><Escape>
