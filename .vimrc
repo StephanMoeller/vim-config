@@ -1,10 +1,6 @@
 let mapleader = ","
 set relativenumber
 
--- Center screen around cursor when jumping up and down with 
-nmap <c-d> <c-d>zz
-nmap <c-u> <c-u>zz
-
 -- Redo
 nmap U <c-r>
 
@@ -24,3 +20,13 @@ nnoremap P "+p
 
 -- vsvim, tab in insert mode triggers auto fix in vs
 nmap <Tab> i<Tab><Escape>
+
+-- Center screen around cursor when jumping up and down with 
+nmap <PageUp> <c-u>zz
+nmap <PageDown> <c-d>zz
+imap <PageUp> <c-u>zz
+imap <PageDown> <c-d>zz
+vmap <PageUp> <c-u>zz
+vmap <PageDown> <c-d>zz
+
+nmap <Home> _
