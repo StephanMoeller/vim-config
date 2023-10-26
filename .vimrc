@@ -31,6 +31,11 @@ nmap <Home> _
 
 -- Ctrl-PageUp/Down looks up and down by moving the screen to position the cursor on top/bottom. The up and down in front and after ensure that the scroll will leave a single line above/under the position of the cursor which is more to my liking
 nmap <c-PageDown> <Up>zt<Down>
-nmap <c-PageUp> <Down>zb<Up>
 imap <c-PageDown> <Up>zt<Down>
+
+nmap <c-PageUp> <Down>zb<Up>
 imap <c-PageUp> <Down>zb<Up>
+
+-- After looking up and down, center view by pressing down while holding control
+nmap <c-Down> zz
+imap <c-Down> zz
