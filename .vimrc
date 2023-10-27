@@ -17,19 +17,20 @@ nmap <silent> <Escape> <Escape>:set nohls<Enter>
 nnoremap Y "+y
 vnoremap Y "+y
 nnoremap P "+p
+nnoremap P "+p
 
 -- vsvim, tab in insert mode triggers auto fix in vs
 nmap <Tab> i<Tab><Escape>
 
 -- Center screen around cursor when jumping up and down with 
-nmap <c-Up> <c-u>zz
-nmap <c-Down> <c-d>zz
-vmap <c-Up> <c-u>zz
-vmap <c-Down> <c-d>zz
+nmap <s-Up> <c-u>zz
+nmap <s-Down> <c-d>zz
+vmap <s-Up> <c-u>zz
+vmap <s-Down> <c-d>zz
 
 nmap <Home> _
 
 -- Shift up and down looks up and down while keeping the cursos where it is. 
 -- The following binding ensures a single line of space above/beneith the current line in this case
-nmap <s-Down> <Up>zt<Down>
-nmap <s-Up> <Down>zb<Up>
+nmap <c-Down> <Up>zt<Down>
+nmap <c-Up> <Down>zb<Up>
