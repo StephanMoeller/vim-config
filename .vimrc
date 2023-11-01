@@ -1,4 +1,4 @@
-let mapleer = ","
+let mapleader = ","
 set relativenumber
 
 -- Redo
