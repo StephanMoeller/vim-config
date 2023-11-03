@@ -20,10 +20,13 @@ nnoremap P "+p
 nnoremap P "+p
 
 -- Center screen around cursor when jumping up and down with 
-nmap <s-Up> <c-u>zz
-nmap <s-Down> <c-d>zz
-vmap <s-Up> <c-u>zz
-vmap <s-Down> <c-d>zz
+nmap <s-Up> 10<Up>zz
+nmap <s-Down> 10<Down>zz
+vmap <s-Up> 10<Up>zz
+vmap <s-Down> 10<Down>zz
+
+-- Ensure showing a method name when jumping up to its starting clause
+nmap % %<Up><Down>
 
 nmap <Home> _
 
