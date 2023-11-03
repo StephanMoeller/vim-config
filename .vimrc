@@ -13,7 +13,7 @@ nmap <Space>r :%s/<c-r>"/
 -- Always disable search highlighting when pressing Escape in normal mode
 nmap <silent> <Escape> <Escape>:set nohls<Enter>
 
--- Shift Y to yank to clipboard - inspired by https://stackoverflow.com/questions/3961859/how-to-copy-to-clipboard-in-vim
+-- Shift Y to yank to clipboard
 nnoremap Y "+y
 vnoremap Y "+y
 nnoremap P "+p
