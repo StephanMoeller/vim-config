@@ -22,8 +22,3 @@ vmap <s-Down> 10<Down>zz
 vmap * *zz
 
 nmap <Home> _
-
--- Shift up and down looks up and down while keeping the cursor where it is. 
--- The following binding ensures a single line of space above/beneith the current line in this case
-nmap <c-Down> <Up>zt<Down>
-nmap <c-Up> <Down>zb<Up>
