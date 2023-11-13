@@ -14,11 +14,7 @@ nnoremap P "+p
 nmap % %<Up><Down>
 
 -- Center screen around cursor when jumping up and down with 
-nmap <s-Up> 10<Up>zz
-nmap <s-Down> 10<Down>zz
 nmap * *zz
-vmap <s-Up> 10<Up>zz
-vmap <s-Down> 10<Down>zz
 vmap * *zz
 
 nmap <Home> _
