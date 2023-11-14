@@ -4,6 +4,9 @@ set relativenumber
 -- Redo
 nmap U <c-r>
 
+-- Enter in normal mode => new line
+nmap <Enter> i<End><Enter><Esc>
+
 -- Shift Y to yank to clipboard
 nnoremap Y "+y
 vnoremap Y "+y
