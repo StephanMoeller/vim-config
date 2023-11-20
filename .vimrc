@@ -17,6 +17,12 @@ nnoremap P "+p
 nmap % %<Up><Down>
 
 -- Center screen around cursor when jumping up and down with 
+nmap <c-d> <c-d>zz
+vmap <c-d> <c-d>zz
+
+nmap <c-u> <c-u>zz
+vmap <c-u> <c-u>zz
+
 nmap * *zz
 vmap * *zz
 
