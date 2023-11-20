@@ -1,5 +1,6 @@
 let mapleader = ","
 set relativenumber
+set number
 
 -- Redo
 nmap U <c-r>
