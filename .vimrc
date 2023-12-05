@@ -6,7 +6,8 @@ set number
 nmap U <c-r>
 
 -- Enter in normal mode => new line
-nmap <Enter> i<End><Enter><Esc>
+nmap <Enter> o<Esc>
+nmap <c-Enter> O<Esc>
 
 -- Shift Y to yank to clipboard
 nnoremap Y "+y
@@ -28,3 +29,4 @@ nmap * *zz
 vmap * *zz
 
 nmap <Home> _
+nmap <c-Enter> 
