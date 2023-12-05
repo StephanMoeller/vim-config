@@ -29,4 +29,3 @@ nmap * *zz
 vmap * *zz
 
 nmap <Home> _
-nmap <c-Enter> 
