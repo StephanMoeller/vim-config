@@ -25,6 +25,12 @@ vmap <c-d> <c-d>zz
 nmap <c-u> <c-u>zz
 vmap <c-u> <c-u>zz
 
+nmap <PageUp> gg
+vmap <PageUp> gg
+
+nmap <PageDown> G
+vmap <PageDown> G
+
 nmap * *zz
 vmap * *zz
 
