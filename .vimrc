@@ -9,9 +9,8 @@ nmap U <c-r>
 nmap <Enter> o<Esc>
 nmap <c-Enter> O<Esc>
 
--- Shift Y to yank to clipboard
 nnoremap Y "+y
-vnoremap Y "+y
+vvnoremap Y "+y
 nnoremap P "+p
 nnoremap P "+p
 
@@ -23,17 +22,11 @@ vnoremap <c-p> <c-r>"0p
 nmap % %<Up><Down>
 
 -- Center screen around cursor when jumping up and down with 
-nmap <c-d> <c-d>zz
-vmap <c-d> <c-d>zz
+nmap <c-c> <c-d>zz
+vmap <c-c> <c-d>zz
 
 nmap <c-u> <c-u>zz
 vmap <c-u> <c-u>zz
-
-nmap <PageUp> gg
-vmap <PageUp> gg
-
-nmap <PageDown> G
-vmap <PageDown> G
 
 nmap * *zz
 vmap * *zz
