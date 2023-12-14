@@ -14,6 +14,7 @@ nnoremap Y "+y
 vnoremap Y "+y
 nnoremap P "+p
 nnoremap P "+p
+nnoremap <c-y> <c-y>"0p
 
 -- Ensure showing a method name when jumping up to its starting clause
 nmap % %<Up><Down>
