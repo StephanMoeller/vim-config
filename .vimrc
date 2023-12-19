@@ -16,7 +16,7 @@ vnoremap <leader>v "+p
 " Always paste yanked by ctrl+p
 nnoremap <c-p> "0p
 
-" Ensure showing a method name when jumping up to its starting clause
+" Ensure showing a method name when jumping up to its starting clause       
 nnoremap % %<Up><Down>
 
 " Center screen around cursor when jumping up and down with 
@@ -29,3 +29,5 @@ nnoremap <c-e> <c-o>
 
 nnoremap <Home> _
 vnoremap <Home> _
+inoremap <Home> <esc>_i
+inoremap <End> <esc>g_a
