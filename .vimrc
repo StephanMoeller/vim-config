@@ -30,8 +30,9 @@ nnoremap <c-e> <c-o>
 " Home and end go to first and last non space character 
 nnoremap <Home> _
 vnoremap <Home> _
+nnoremap <End> g_
+vnoremap <End> g_
+
 inoremap <Home> <esc>_i
 inoremap <End> <esc>g_a
 
-nnoremap <End> g_
-vnoremap <End> g_
