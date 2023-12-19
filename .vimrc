@@ -25,10 +25,8 @@ nnoremap <c-c> <c-d>zz
 vnoremap <c-c> <c-d>zz
 
 " Go back is defauls <c-o>, this uses the pinky. Instead using <c-e>
-nnoremap <c-n> <c-o>
-vnoremap <c-n> <c-o>
-nnoremap <c-e> <c-i>
-vnoremap <c-e> <c-i>
+nnoremap <c-e> <c-o>
+vnoremap <c-e> <c-o>
 
 nnoremap <c-u> <c-u>zz
 vnoremap <c-u> <c-u>zz
