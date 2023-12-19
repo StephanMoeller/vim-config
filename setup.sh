@@ -20,8 +20,8 @@ ensure_file_not_exists()
 
 SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 SOURCE_VIM_FILE="$SCRIPT_DIR/.vimrc"
-create_symlink "~/.vimrc" $SOURCE_VIM_FILE
-create_symlink "~/.ideavimrc" $SOURCE_VIM_FILE
+create_symlink "$SOURCE_VIM_FILE""~/.vimrc" 
+create_symlink "$SOURCE_VIM_FILE" "~/.ideavimrc"
 
 # Telling nvim to use ~/.vimrc
 INIT_CONTENT="source $SOURCE_VIM_FILE"
