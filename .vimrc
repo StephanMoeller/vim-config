@@ -7,7 +7,7 @@ nmap U <c-r>
 
 " Enter in normal mode => new line
 nnoremap <Enter> o<Esc>
-nnoremap <c-Enter> O<Esc>
+nnoremap <leader><Enter> O<Esc>
 
 nnoremap <leader>y "+y
 vnoremap <leader>y "+y
@@ -17,7 +17,8 @@ nnoremap <leader>p "+p
 " Always paste yanked by ctrl+p
 nnoremap <c-p> "0p
 
-" Ensure showing a method name when jumping up to its starting claunnoremap % %<Up><Down>
+" Ensure showing a method name when jumping up to its starting claus
+nnoremap % %<Up><Down>
 
 " Center screen around cursor when jumping up and down with 
 nnoremap <c-d> <c-d>zz
