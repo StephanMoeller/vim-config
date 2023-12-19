@@ -9,10 +9,10 @@ nmap U <c-r>
 nnoremap <Enter> o<Esc>
 nnoremap <c-Enter> O<Esc>
 
-nnoremap Y "+y
-vnoremap Y "+y
-nnoremap P "+p
-nnoremap P "+p
+nnoremap <leader>y "+y
+vnoremap <leader>y "+y
+nnoremap <leader>p "+p
+nnoremap <leader>p "+p
 
 " Always paste yanked by ctrl+p
 nnoremap <c-p> "0p
