@@ -8,6 +8,7 @@ nnoremap U <c-r>
 " Enter in normal mode => new line
 nnoremap <Enter> o<Esc>
 
+" Copy/Paste to/from clipboard
 nnoremap <leader>c "+y
 vnoremap <leader>c "+y
 nnoremap <leader>v "+p
@@ -36,4 +37,3 @@ vnoremap <End> g_
 
 inoremap <Home> <esc>_i
 inoremap <End> <esc>g_a
-
