@@ -2,28 +2,31 @@ let mapleader = ","
 set relativenumber
 set number
 
--- Redo
+" Redo
 nmap U <c-r>
 
--- Enter in normal mode => new line
+" Enter in normal mode => new line
 nnoremap <Enter> o<Esc>
 nnoremap <c-Enter> O<Esc>
 
 nnoremap Y "+y
-vvnoremap Y "+y
+vnoremap Y "+y
 nnoremap P "+p
 nnoremap P "+p
 
--- Always paste yanked by ctrl+p
-nnoremap <c-p> <c-r>"0p
+" Always paste yanked by ctrl+p
+nnoremap <c-p> <c-rp
 vnoremap <c-p> <c-r>"0p
 
--- Ensure showing a method name when jumping up to its starting clause
-nnoremap % %<Up><Down>
+" Ensure showing a method name when jumping up to its starting claunnoremap % %<Up><Down>
 
--- Center screen around cursor when jumping up and down with 
+" Center screen around cursor when jumping up and down with 
 nnoremap <c-c> <c-d>zz
 vnoremap <c-c> <c-d>zz
+
+" Go back is defauls <c-o>, this uses the pinky. Instead using <c-e>
+nnoremap <c-e> <c-o>
+vnoremap <c-e> <c-o>
 
 nnoremap <c-u> <c-u>zz
 vnoremap <c-u> <c-u>zz
