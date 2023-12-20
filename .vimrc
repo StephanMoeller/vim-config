@@ -3,7 +3,7 @@ set relativenumber
 set number
 
 " Redo
-nmap U <c-r>
+nnoremap U <c-r>
 
 " Enter in normal mode => new line
 nnoremap <Enter> o<Esc>
@@ -26,6 +26,7 @@ nnoremap * *zz
 
 " Go back is defauls <c-o>, this uses the pinky. Instead using <c-e>
 nnoremap <c-e> <c-o>
+nnoremap <c-o> :echo "c-o is disabled to force training using <c-e> instead"<Enter>
 
 " Home and end go to first and last non space character 
 nnoremap <Home> _
