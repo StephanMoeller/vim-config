@@ -25,10 +25,6 @@ nnoremap <c-d> <c-d>zz
 nnoremap <c-u> <c-u>zz
 nnoremap * *zz
 
-" Go back is defauls <c-o>, this uses the pinky. Instead using <c-e>
-nnoremap <c-e> <c-o>
-nnoremap <c-o> :echo "c-o is disabled to force training using <c-e> instead"<Enter>
-
 " Home and end go to first and last non space character 
 nnoremap <Home> _
 vnoremap <Home> _
