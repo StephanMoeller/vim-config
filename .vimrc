@@ -16,6 +16,7 @@ vnoremap <leader>v "+p
 
 " Always paste yanked by ctrl+p
 nnoremap <c-p> "0p
+vnoremap <c-p> "0p
 
 " Ensure showing a method name when jumping up to its starting clause       
 nnoremap % %<Up><Down>
