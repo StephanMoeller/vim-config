@@ -35,9 +35,10 @@ vnoremap <End> g_
 inoremap <Home> <esc>_i
 inoremap <End> <esc>g_a
 
-inoremap h <c-o>
-nnoremap h <c-o>
-vnoremap h <c-o>
-inoremap l <c-i>
-nnoremap l <c-i>
-vnoremap l <c-i>
+nnoremap <c-n> :vsc View.NavigateBackward<enter>
+vnoremap <c-n> :vsc View.NavigateBackward<enter>
+nnoremap <c-e> :vsc View.NavigateForward<enter>
+vnoremap <c-e> :vsc View.NavigateForward<enter>
+
+nnoremap <c-h> :vsc Edit.GoToImplementation<enter>
+vnoremap <c-h> :vsc Edit.GoToImplementation<enter>
