@@ -29,16 +29,18 @@ nnoremap * *zz
 " Home and end go to first and last non space character 
 nnoremap <Home> _
 vnoremap <Home> _
+inoremap <Home> <esc>_i
+
 nnoremap <End> g_
 vnoremap <End> g_
-
-inoremap <Home> <esc>_i
 inoremap <End> <esc>g_a
 
-nnoremap <c-Home> :vsc View.NavigateBackward<enter>
-vnoremap <c-Home> :vsc View.NavigateBackward<enter>
-nnoremap <c-End> :vsc View.NavigateForward<enter>
-vnoremap <c-End> :vsc View.NavigateForward<enter>
+-- lu => go to implementation and exit buggy visual mode in vsvim
+nnoremap <F12> :vsc Edit.GoToImplementation<enter>
+nnoremap <|> :vsc Edit.GoToImplementation<enter>
+vnoremap <|> <Esc>
 
-nnoremap <c-g> :vsc Edit.GoToImplementation<enter>
-vnoremap <c-g> :vsc Edit.GoToImplementation<enter>
+nnoremap <c-i> :vsc View.NavigateBackward<enter>
+vnoremap <c-i> :vsc View.NavigateBackward<enter>
+nnoremap <c-o> :vsc View.NavigateForward<enter>
+vnoremap <c-o> :vsc View.NavigateForward<enter>
