@@ -34,3 +34,10 @@ vnoremap <End> g_
 
 inoremap <Home> <esc>_i
 inoremap <End> <esc>g_a
+
+inoremap h <c-o>
+nnoremap h <c-o>
+vnoremap h <c-o>
+inoremap l <c-i>
+nnoremap l <c-i>
+vnoremap l <c-i>
